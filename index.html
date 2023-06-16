@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="message">
+            <p style="font-size: 2rem;margin-bottom: 1rem;text-align: center;font-weight: bold;">
+               Pass the message
+            </p>
+            <p >
+                <label for="message-input">Enter the message</label>
+                <br>
+                <button style="height: 2rem;">
+                    <i class="fa-solid fa-envelope"></i>
+                </button>
+                <input id="input_message" type="text">
+            </p>
+            <br>
+            <p>
+                <button onclick="task()"  id="submit_message" >Submit</button>
+            </p>
+            <p id="output_message" style="text-align: center; font-size: 1rem; text-transform: uppercase;">
+                
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

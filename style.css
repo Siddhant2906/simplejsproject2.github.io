@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+}
+.container{
+    height:100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,rgb(102, 187, 237),white);
+}
+.message{
+    width: 50%;
+    height: auto;
+    margin-left: 1rem;
+    background-color: aliceblue;
+}
+
+
+.message p:first-child{
+    border-bottom: 1px solid black;
+}
+.message p label{
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+ } 
+.message p input{
+   height: 2rem;
+   width:80%;
+} 
+@media(max-width:440px){
+    /* .message p input{
+        height: 2rem;
+        width:75%;
+     }  */
+     .message{
+        width: 70%;
+        height: auto;
+        margin-left: 1rem;
+        background-color: aliceblue;
+    }
+
+
+}
+
+#output_message {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+ 
+
+
